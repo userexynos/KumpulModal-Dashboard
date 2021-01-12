@@ -1,0 +1,366 @@
+@font-face {
+    font-family: SSP-Bold;
+    src: url('/assets/fonts/SourceSansPro-Bold.ttf');
+}
+
+@font-face {
+    font-family: SSP-Regular;
+    src: url('/assets/fonts/SourceSansPro-Regular.ttf');
+}
+
+body {
+    font-family: SSP-Regular;
+    height: 100%;
+    width: 100%;
+}
+
+input {
+    width: 50%;
+    border: none;
+    transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) .2s;
+    padding: 0px 5px;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+button:hover {
+    outline: none;
+    border: none;
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+    border: none;
+    outline: none;
+}
+
+a {
+    color: white
+}
+
+a:hover {
+    color: rgba(255,255,255,0.6)
+}
+
+
+.nav-link:hover {
+    color: black;
+    background: #E85856;
+}
+
+.nav-body .nav-item.active {
+    background: #E85856;
+}
+
+.nav-body .nav-item.active > a {
+    color: black;
+}
+
+
+/* Login */
+
+.container-login {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-login {
+    width: 50%;
+    background-size: cover;
+}
+
+.form-login {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 100px;
+}
+
+.img-login-logo {
+    width: 190px;
+}
+
+input[type=email]:invalid {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.login-subject {
+    font-size: 14px;
+}
+
+.floating-group {
+    position: relative;
+}
+
+.floating-label {
+    font-family: SSP-Regular;
+    padding: 0px 5px;
+    font-size: 15px;
+    position: absolute;
+    transform-origin: top left;
+    transform: translate(0, 0) scale(1);
+    transition: all .1s ease-in-out;
+    user-select: none;
+}
+
+.floating-group .floating-label.on {
+    /* animation: floating 2s; */
+    transform: translate(0, -15px) scale(.75);
+}
+
+.button {
+    font-family: SSP-Bold;
+    font-size: 14px;
+    color: white;
+    width: 50%;
+    height: 38px;
+    background: #E85856;
+    transition: all .5s ease-in-out;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background: rgb(182, 69, 67);
+}
+
+.button:focus {
+    background: rgb(182, 69, 67);
+}
+
+/* Dashboard */
+
+*:focus {
+    outline: 0;
+}
+
+.container-dashboard {
+    font-family: SSP-Regular;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.side-nav {
+    user-select: none;
+    width: 240px;
+    position: fixed;
+    height: 100%;
+    background: black;  
+}
+
+.nav-header {
+    position: relative;
+}
+
+.nav-body .active {
+    background: #E85856;
+}
+
+.nav-body .active > a {
+    color: black;
+}
+.side-content {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-title {
+    font-family: SSP-Regular;
+    font-size: 18px;
+}
+
+.content-header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-left: 240px;
+
+}
+.content-body {
+    background: #f7f7f7;
+    min-height: 100vh;
+    height: 100%; 
+    margin-left: 240px;
+}
+
+.table-responsive table thead {
+        background: rgba(0,0,0,0.03);
+}
+
+.table-responsive table thead tr th .VueTables__heading {
+    font-family: SSP-Bold;
+    text-transform: uppercase;
+    color: grey;
+    font-weight: normal;
+}
+
+.VueTables__search__input {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+
+.VueTables__limit {
+    display: none;
+}
+
+.pagination {
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+}
+
+/* Home */
+
+h1,h2,h3,h4,h5 {
+    font-family: SSP-Bold;
+}
+
+.data-body {
+    font-family: SSP-Regular;
+    padding: 30px;
+    width: 100%;
+}
+
+.card-flex {
+    margin-top: 20px;
+    display: flex;
+}
+
+.datatbl {
+    background: white;
+    border: 1px solid rgba(0,0,0,0.1)
+}
+
+.datatbl2 {
+    background: white;
+    border: 1px solid rgba(0,0,0,0.1)
+}
+
+.invest-image {
+    height: 50px; 
+    width: 50px;
+}
+
+.invest-name {
+    font-size: 15px;
+    font-family: SSP-Bold;
+}
+
+.invest-detail {
+    font-size: 14px;
+    color: rgba(0,0,0,0.5);
+    font-family: SSP-Regular;
+}
+
+.invest-total {
+    font-family: SSP-Bold;
+    font-size: 15px;
+}
+
+.invest-total-right {
+    position: absolute; 
+    right: 28px
+}
+
+.table thead {
+    background: rgba(0,0,0,0.1);
+}
+
+.footer {
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer span {
+    font-size: 14px;
+}
+
+/* Investor */
+
+.investor    {
+    min-height: 92.4vh;
+    height: 100%;
+    padding: 30px;
+}
+
+/* Trader */
+
+.trader {
+    min-height: 92.4vh;
+    height: 100%;
+    padding: 30px;
+}
+.trader-header {
+    display: flex;
+    justify-content: space-between
+}
+
+/* Campaign */
+
+.campaign {
+    min-height: 92.4vh;
+    height: 100%;
+    padding: 30px;
+}
+
+.campaign-header {
+    display: flex;
+    justify-content: space-between
+}
+
+.campaign .datatbl div .VueTables .table-responsive table {
+    width: 2300px
+}
+
+.campaign .datatbl div .VueTables .table-responsive table thead tr #VueTables_th--title {
+    width: 300px
+}
+
+.campaign .datatbl div .VueTables .table-responsive table thead tr #VueTables_th--collected_target {
+    width: 150px
+}
+
+.campaign .datatbl div .VueTables .table-responsive table thead tr #VueTables_th--story {
+    width: 300px
+}
+
+.campaign .datatbl div .VueTables .table-responsive table thead tr #VueTables_th--days_left {
+    width: 150px
+}
+
+.history    {
+    min-height: 92.4vh;
+    height: 100%;
+    padding: 30px;
+}
+
+.redeem-request {
+    min-height: 92.4vh;
+    height: 100%;
+    padding: 30px;
+}
+
+.banner {
+    min-height: 92.4vh;
+    height: 100%;
+    padding: 30px;
+}
