@@ -12,7 +12,7 @@
                         <div>
                             <h3 class="card-title">{{ collectedTotal  }}</h3>
                         </div>
-                        <img src="assets/images/dana-terkumpul.png" style="height: 40px; position: absolute; right: 20px; bottom: 30px">
+                        <img src="/km-dash/assets/images/dana-terkumpul.png" style="height: 40px; position: absolute; right: 20px; bottom: 30px">
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                         <div>
                             <h3 class="card-title">{{ fundedTraderTotal }} Orang</h3>
                         </div>
-                        <img src="assets/images/pedagang-terdanai.png" style="height: 40px; position: absolute; right: 20px; bottom: 30px">
+                        <img src="/km-dash/assets/images/pedagang-terdanai.png" style="height: 40px; position: absolute; right: 20px; bottom: 30px">
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
                         <div>
                             <h3 class="card-title">{{ dataInvestor.length }} Investor</h3>
                         </div>
-                        <img src="assets/images/total-investor.png" style="height: 40px; position: absolute; right: 20px; bottom: 30px">
+                        <img src="/km-dash/assets/images/total-investor.png" style="height: 40px; position: absolute; right: 20px; bottom: 30px">
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                     <!-- Jika datainvestor lebih dari 5 items -->
                     <div v-if="dataInvestor.length >= 5">
                         <div class="row p-3" v-for="i in 5" :key="i">
-                            <img src="assets/images/avatar-1@3x.png" class="invest-image">
+                            <img src="/km-dash/assets/images/avatar-1@3x.png" class="invest-image">
                             <div class="ml-2">
                                 <span class="d-block invest-name">
                                     David Lee

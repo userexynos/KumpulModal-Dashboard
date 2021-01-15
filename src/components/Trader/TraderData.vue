@@ -19,8 +19,8 @@
                         {{ props.row.income_per_day | currency }}
                     </template>
                     <template slot="action" slot-scope="props">
-                        <button @click.prevent="editPedagang(props.row.id)"><img src="assets/images/edit@3x.png" height="16"></button>
-                        <button @click.prevent="deletePedagang(props.row.id)"><img src="assets/images/delete@3x.png" height="12"></button>
+                        <button @click.prevent="editPedagang(props.row.id)"><img src="/km-dash/assets/images/edit@3x.png" height="16"></button>
+                        <button @click.prevent="deletePedagang(props.row.id)"><img src="/km-dash/assets/images/delete@3x.png" height="12"></button>
                     </template>
                 </v-client-table>
             </div>

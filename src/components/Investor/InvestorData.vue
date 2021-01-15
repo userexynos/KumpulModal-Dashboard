@@ -25,7 +25,7 @@
                         <img :src="props.row.profile_user.avatar" alt="" width="40" height="40">
                     </template>
                     <template slot="action" slot-scope="props">
-                        <button @click.prevent="editInvestor(props.row.id)"><img src="assets/images/edit@3x.png" height="16"></button>
+                        <button @click.prevent="editInvestor(props.row.id)"><img src="/km-dash/assets/images/edit@3x.png" height="16"></button>
                     </template>
                 </v-client-table>
             </div>

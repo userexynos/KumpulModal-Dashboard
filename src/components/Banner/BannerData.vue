@@ -16,8 +16,8 @@
                         <img :src="props.row.image" alt="" width="40" height="40">
                     </template>
                     <template slot="action" slot-scope="props">
-                        <button @click.prevent="editBanner(props.row.id)"><img src="assets/images/edit@3x.png" height="16"></button>
-                        <button @click.prevent="deleteBanner(props.row.id)"><img src="assets/images/delete@3x.png" height="12"></button>
+                        <button @click.prevent="editBanner(props.row.id)"><img src="/km-dash/assets/images/edit@3x.png" height="16"></button>
+                        <button @click.prevent="deleteBanner(props.row.id)"><img src="/km-dash/assets/images/delete@3x.png" height="12"></button>
                     </template>
                 </v-client-table>
             </div>

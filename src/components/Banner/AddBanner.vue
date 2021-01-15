@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="form-image">
                     <label for="banner-upload">
-                        <img src="/assets/images/foto_1.png" id="banner-preview" height="200">
+                        <img src="/km-dash/assets/images/foto_1.png" id="banner-preview" height="200">
                     </label>
                     <input accept="image/*" ref="file" type="file" id="banner-upload" @change="bannerUpload($event)">
                     <label for="banner-upload" class="d-block text-center">+ Pilih Banner</label>

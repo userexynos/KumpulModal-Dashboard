@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="form-image">
                     <label for="upload-image">
-                        <img src="/assets/images/foto_1.png" id="img" height="200">
+                        <img src="/km-dash/assets/images/foto_1.png" id="img" height="200">
                     </label>
                     <input accept="image/*" type="file" id="upload-image" @change="changePicture($event)">
                     <span class="d-block text-center">+ Pilih Foto Pedagang</span>

@@ -56,7 +56,7 @@
                     <b-dropdown class="m-2" text="Administrator" variant="link" toggle-class="text-decoration-none text-dark toggleClass">
                         <b-dropdown-item @click="logout()" href="#">Logout</b-dropdown-item>
                     </b-dropdown>
-                    <img src="/assets/images/avatar-44.png" width="40" height="40">
+                    <img src="/km-dash/assets/images/avatar-44.png" width="40" height="40">
                 </div>
             </div>
             <div class="content-body" style="height: 100vh; display: flex; justify-content: center; align-items: center;" v-if="loading">

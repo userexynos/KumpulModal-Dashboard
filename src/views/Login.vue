@@ -1,9 +1,9 @@
 <template>
   <div class="container-login">
-    <img src="assets/images/Group 244@2x.png" id="side-image" class="image-login" alt="...">
+    <img src="/km-dash/assets/images/Group 244@2x.png" id="side-image" class="image-login" alt="...">
     <div class="form-login">
       <div class="w-100 text-center">
-        <img src="assets/images/Group 245.png" class="img-login-logo">
+        <img src="/km-dash/assets/images/Group 245.png" class="img-login-logo">
         <div>
           <span class="login-subject d-block">
             Welcome back! Please login to your account.

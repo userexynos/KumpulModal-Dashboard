@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="form-image">
                     <label for="campaign-upload">
-                        <img src="/assets/images/foto_1.png" id="campaign-preview" height="200">
+                        <img src="/km-dash/assets/images/foto_1.png" id="campaign-preview" height="200">
                     </label>
                     <input accept="image/*" ref="file" type="file" id="campaign-upload" @change="campaignUpload($event)">
                     <label for="campaign-upload" class="d-block text-center">+ Pilih Foto Pedagang</label>
